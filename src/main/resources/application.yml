@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: database-with-jpa
+
+
+
+  datasource:
+    url: jdbc:postgresql://localhost:2346/postgres14_db
+    username: user14
+    password: password14
+    driver-class-name: org.postgresql.Driver
+
+
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+
+
+server:
+  port: 9999
